@@ -31,19 +31,19 @@ function calcular(){
 function Ver(img,imagen){
     switch(img){
         case 1:
-          imagen.src="recursos/1.jpg";
+          imagen.src="recursos/11.jpg";
           break;
         case 2:
-            imagen.src="recursos/2.jpg";
+            imagen.src="recursos/12.jpg";
             break;
         case 3:
-            imagen.src="recursos/3.jpg";
+            imagen.src="recursos/13.jpg";
           break;
         case 4:
-            imagen.src="recursos/4.jpg";
+            imagen.src="recursos/14.jpg";
           break;
         case 5:
-            imagen.src="recursos/5.jpg";
+            imagen.src="recursos/15.jpg";
           break;
       }
 };
