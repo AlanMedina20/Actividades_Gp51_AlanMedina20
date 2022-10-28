@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/cssJS.css">
+    <title>Javascript 5</title>
 
 </head>
-<body background-color= "">
+<body>
 
-    <h1> Calculadora</h1>
-
+    <h1> Java script 5</h1>
+<br>
+<nav id="navegador" class="texto">
+    <ul>
+        <li><h2><a href="js.html" class="uno">Javascript 1</a></h2></li>
+            <li><h2><a href="js2.html" class="uno">Javascript 2</a></h2></li>
+            <li><h2><a href="js3.html" class="uno">Javascript 3</a></h2></li>
+            <li><h2><a href="js4.html" class="uno">Javascript 4</a></h2></li>
+            <li><h2><a href="js5.html" class="uno">Javascript 5</a></h2></li>
+        
+    </ul>
+</nav>
+<ul>
+    <li><h1> Calculadora</h1>
     <div>
         <div>
             <label for="num1">Numero 1: </label>
@@ -44,8 +57,10 @@
     <div>
         <button onclick="calcular()">Calcular</button>
     </div>
+</li>
 <br>
 <br>
+<li>
     <h1> Imagenes</h1>
 
     <div>
@@ -53,12 +68,34 @@
             <label for="img">Numero de imagen: </label>
             <input type="text" name="img"
             id="img">
+            <br>
+            <br>
             <img src="" id="imagen" height="100">
     </div>
     <br>
     <div>
         <button onclick="VerImagen()">Ver foto</button>
     </div>
+</li>
+    <br>
+<li>
+    <h1> Tabla de multiplicar</h1>
+
+    <div>
+        
+            <label for="numtab">Tabla del numero: </label>
+            <input type="text" name="numtab"
+            id="numtab">
+            
+    </div>
+            <div id="tab">
+    </div>
+    <br>
+    <div>
+        <button id="genera" onclick="Vertabla()">Ver tabla</button>
+    </div>
+</ul>
+</li>
     <script src="javascript/js5.js"></script>
 </body>
 </html>
