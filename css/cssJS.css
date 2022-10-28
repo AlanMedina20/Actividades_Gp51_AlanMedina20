@@ -17,6 +17,7 @@
 
 .uno {
     color: rgb(0, 0, 0);
+    font-family: Calibri;
 }
 
 .uno:link {
@@ -38,4 +39,10 @@ ul{
     display: flex;
     justify-content: space-around;
     align-content: space-between;
+}
+
+h1 {
+    font-family: Calibri;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
 }
